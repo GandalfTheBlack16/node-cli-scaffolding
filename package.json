@@ -1,0 +1,29 @@
+{
+  "name": "cli-scaffolding",
+  "version": "1.0.0",
+  "description": "Node basic CLI project skeleton",
+  "main": "dist/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "rimraf ./dist && tsc"
+  },
+  "bin": {
+    "foo": "bin/cmd.js"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "node",
+    "scaffolding"
+  ],
+  "author": "GandalfTheBlack16",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "rimraf": "5.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "chalk": "5.2.0"
+  }
+}
