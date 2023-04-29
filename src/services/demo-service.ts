@@ -1,3 +1,3 @@
-export function getMessage(): string {
-    return 'Hello from CLI';
+export function getMessage (): string {
+  return 'Hello from CLI'
 }

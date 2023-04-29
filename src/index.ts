@@ -1,8 +1,8 @@
-import chalk from 'chalk';
-import { getMessage } from './services/demo-service.js';
+import chalk from 'chalk'
+import { getMessage } from './services/demo-service.js'
 
-async function main() {
-    console.log(chalk.bgGreenBright(getMessage()));
+async function main (): Promise<void> {
+  console.log(chalk.bgGreenBright(getMessage()))
 }
 
-main();
+await main()
