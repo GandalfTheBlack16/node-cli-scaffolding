@@ -6,6 +6,7 @@
 
 * Typescript
 * ES Lint pre-configured
+* Jest Test Runner pre-configured
 
 ## Demo
 
@@ -58,3 +59,9 @@
     //Output
     Hello from CLI
     ```
+
+### Execute tests (via Jest)
+
+```
+npm test
+```
