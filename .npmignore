@@ -1,2 +1,5 @@
 src
 tsconfig.json
+test
+.eslintrc.cjs
+jest.config.ts

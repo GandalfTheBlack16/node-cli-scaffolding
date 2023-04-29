@@ -11,6 +11,7 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json'
   },
+  ignorePatterns: ['jest.config.ts', 'dist'],
   rules: {
   }
 }
